@@ -1,42 +1,102 @@
-.heder{ color:black;
-    text-align: left ;
-    vertical-align:top;
-    line-height: 23px;
+body {
+  font-family: 'Domine', Arial;
+}
+
+header {
+  display: flex;
+  position:sticky;
+  top: 0px;
+  width: 100vw;
+  height: 168px;
+  align-items: center;
+}
+
+header nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  gap: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding: 0px 128px;
+}
+
+.triangle-group {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  display: none;
+}
+
+.circle-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 
+.hero-content {
+  display: flex;
+  align-items: start;
+}
+
+
+.hero-text {
+  margin: 0;
+}
+
+.hero-image {
+  position: relative;
+  width: 612px;
+  height: 608px;
+}
+
 P {
     color: #E09338;
-    text-align: center;
+    text-align: left;
     font-size: 24px;
-    font-family:Donmine;
     font-style:normal;
     position: sticky;
   } 
 
-  body {
-    background-color: #FFFFFF;
-  }
+body {
+  background-color: #FFFFFF;
+}
 
-  .inline-block {
-    display: inline-block;
-    vertical-align: top;
-  }
-  .headshot{
-    width:400px;
-    height:400px;
-    float: right;
-    margin-left:15px;
-  }
-  .trangle{
-    width:50px;
-    height:50px;
-  }
+.inline-block {
+  display: inline-block;
+  width: auto;
+  height: 168px;
+  vertical-align: top;
+}
+
+.headshot{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width:612px;
+  height:608px;
+  z-index: 100;
+}
+.trangle{
+
+  width:50px;
+  height:50px;
+}
+
 .trangleround {
-  width:400px;
-  height:400px;
-  float: right;
-
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 612px;
+  height:608px;
 }
 .circle{
   width:50px;

@@ -56,6 +56,7 @@ nav ul {
   position: relative;
   width: 612px;
   height: 608px;
+  float: right;
 }
 
 P {
@@ -84,6 +85,7 @@ body {
   width:612px;
   height:608px;
   z-index: 100;
+  float: right;
 }
 .trangle{
 
@@ -97,6 +99,7 @@ body {
   left: 0px;
   width: 612px;
   height:608px;
+  float: right;
 }
 .circle{
   width:50px;
